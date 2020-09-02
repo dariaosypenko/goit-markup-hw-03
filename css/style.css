@@ -1,14 +1,30 @@
 * {
     padding: 0;
     margin: 0;
+}
+html {
     box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
 :root {
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
+.header {
+    outline: 1px solid green;
+}
 body {
     background: white;
     letter-spacing: 0.03em;
@@ -67,6 +83,25 @@ body {
 button {
     font-family: inherit;
 }
+.primary-btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+
+    color: #ffffff;
+    background-color: #2196F3;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
 h1 {
     font-weight: 900;
     font-size: 44px;
@@ -74,6 +109,18 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
 }
+
+/* .hero {
+
+} */
+
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: 1px solid red;
+}
+
 
 h2 {
     font-weight: bold;
@@ -121,7 +168,6 @@ h2 {
     list-style: none;
 }
 
-}
 button:hover,:focus {
     color: #2196F3;
 }
