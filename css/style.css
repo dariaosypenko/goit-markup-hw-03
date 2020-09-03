@@ -9,6 +9,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    outline: 1px solid red;
 }
 
 
@@ -19,12 +20,12 @@ html {
 .container {
     margin-left: auto;
     margin-right: auto;
-
+    width: 1230px;
 }
 
-.header {
+/* .header {
     outline: 1px solid green;
-}
+} */
 body {
     background: white;
     letter-spacing: 0.03em;
@@ -80,9 +81,28 @@ body {
 
 }
 
-button {
+/* button {
     font-family: inherit;
+} */
+
+/* <=========MAIN PAGE========> */
+/* HERO */
+.hero {
+text-align: center;
 }
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
 .primary-btn {
     display: inline-block;
     border: 1px solid transparent;
@@ -100,25 +120,6 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     text-decoration: none;
-}
-
-h1 {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-
-/* .hero {
-
-} */
-
-
-.hero-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    outline: 1px solid red;
 }
 
 
@@ -171,3 +172,45 @@ h2 {
 button:hover,:focus {
     color: #2196F3;
 }
+img {
+    display: block;
+}
+/* <===========PORTFOLIO==========> */
+
+.secondary-btn-all {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
+
+    color: #ffffff;
+    background-color: #2196F3;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.secondary-btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+
+    color:#212121;;
+    background-color: #F5F4FA;;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
